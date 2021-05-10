@@ -1,0 +1,13 @@
+package day4homework2;
+
+
+public class Customer {
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String dateOfBirth;
+	private String nationalityId;
+	
+	
+}

@@ -1,0 +1,13 @@
+package Abstracts;
+
+import java.rmi.RemoteException;
+
+import Entities.Customer;
+
+public interface ICustomerCheckService {
+
+	public boolean CheckIfRealPerson(String tc, String firstName, String lastName, int birthDay) throws RemoteException;
+
+	boolean CheckIfRealPerson(Customer customer) throws RemoteException;
+	
+}

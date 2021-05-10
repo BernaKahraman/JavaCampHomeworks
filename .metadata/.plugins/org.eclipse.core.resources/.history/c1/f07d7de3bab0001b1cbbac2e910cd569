@@ -1,0 +1,20 @@
+package Entities;
+
+import java.time.LocalDate;
+
+import Abstracts.IEntity;
+
+public class Customer implements IEntity{
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private LocalDate dateOfBirth;
+	private String nationalityId;
+	
+	
+
+
+	
+	
+}

@@ -1,0 +1,13 @@
+package Abstracts;
+
+import day4homework2.Customer;
+
+public class BaseCustomerManager implements ICustomerService {
+
+	@Override
+	public void Save(Customer customer) {
+		
+		
+	}
+
+}

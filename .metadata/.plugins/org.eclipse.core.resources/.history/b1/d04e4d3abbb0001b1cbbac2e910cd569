@@ -1,0 +1,19 @@
+package day4homework2;
+
+import java.time.LocalDate;
+
+import Abstracts.BaseCustomerManager;
+import Concrete.NeroCustomerManager;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		BaseCustomerManager customerManager= new NeroCustomerManager();
+		customerManager.Save(new Customer(1, "Berna", "Kahraman", 1997, "11111111111"));
+		
+		
+	}
+
+}

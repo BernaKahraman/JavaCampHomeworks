@@ -1,0 +1,14 @@
+package day4homework2;
+
+import Abstracts.ICustomerService;
+
+public class Customer implements ICustomerService{
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String dateOfBirth;
+	private String nationalityId;
+	
+	
+}

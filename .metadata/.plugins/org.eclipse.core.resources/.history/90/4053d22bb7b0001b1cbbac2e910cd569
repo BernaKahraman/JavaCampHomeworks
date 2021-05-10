@@ -1,0 +1,9 @@
+package Abstracts;
+
+import day4homework2.Customer;
+
+public interface ICustomerService {
+	
+	void Save(Customer customer);
+	
+}

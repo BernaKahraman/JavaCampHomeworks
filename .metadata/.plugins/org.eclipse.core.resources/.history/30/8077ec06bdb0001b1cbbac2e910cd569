@@ -1,0 +1,15 @@
+package Concrete;
+
+import Abstracts.BaseCustomerManager;
+import Entities.Customer;
+
+public class StarbucksCustomerManager extends BaseCustomerManager {
+
+	@Override
+	public void Save(Customer customer) {
+		
+		//CheckIfRealPerson(customer);
+		
+	}
+	
+}

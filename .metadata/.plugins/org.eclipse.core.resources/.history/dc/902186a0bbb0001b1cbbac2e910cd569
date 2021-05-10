@@ -1,0 +1,14 @@
+package Abstracts;
+
+import Entities.Customer;
+
+public abstract class BaseCustomerManager implements ICustomerService {
+
+	@Override
+	public virtual Save(Customer customer) {
+		
+		System.out.println("Veri tabanýna kaydedildi : " + customer.getFirstName());
+		
+	}
+
+}
