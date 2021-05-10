@@ -1,9 +1,0 @@
-package Abstracts;
-
-import day4homework2.Customer;
-
-public interface ICustomerService {
-	
-	public void Save(Customer customer);
-	
-}

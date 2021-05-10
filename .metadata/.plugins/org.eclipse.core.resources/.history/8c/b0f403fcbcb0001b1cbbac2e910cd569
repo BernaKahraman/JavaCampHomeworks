@@ -1,9 +1,0 @@
-package Abstracts;
-
-import Entities.Customer;
-
-public interface ICustomerCheckService {
-
-	void CheckIfRealPerson(Customer customer);
-	
-}
